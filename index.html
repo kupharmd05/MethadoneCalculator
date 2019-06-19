@@ -16,11 +16,34 @@
     <h1 class="jumbotron text-center">Methadone Calculator</h1>
 
     <div class="form-group text-center">
-            <label for="morphineEq">Morphine Equivalents: </label>
+            <label for="morphineEq">Morphine Equivalents Per Day (in milligrams): </label>
             <input type="text" id="morphineEq">
+
+            <button type="submit" class="btn btn-success" id="submit" aria-hidden="true"></i> Submit</button>
     </div>
     
-    <div class="text-center" id="displayDiv"></div>
+
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Ripamonti</th>
+                <th scope="col">Mercadante</th>
+                <th scope="col">Ayonride</th>
+                <th scope="col">Fast Facts</th>
+                <th scope="col">Manufacturer</th>
+              </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="ripamontiNum"></td>
+                <td id="mercadanteNum"></td>
+                <td id="ayonrideNum"></td>
+                <td id="FFNum"></td>
+                <td id="manufNum"></td>
+            </tr>
+        </tbody>
+    </table>
 
 
 
